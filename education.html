@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<link href='https://fonts.googleapis.com/css?family=Boogaloo' rel='stylesheet'>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Boogaloo';font-size: 22px; 
+  background-image: url("edu.jpg");
+  text-align: center;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 50px;
+  background-image: url("grad.jpg");
+  color: white;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 50px;
+  text-align: center;
+  background-image: url("grad.jpg");
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+  img src="star.jpg" width="460" height="345"
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="header">
+  <h2>My Education</h2>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;"> PRIMARY SCHOOL
+<ul>
+  <li> I went to SK GITA NO 1 in 2007 until 2009.</li>
+  <li> I was then transferred to SK GITA NO 2 in early 2009 due to location of my home which is nearer.</li>
+  <li> finished my primary school in 2012 with flying colours.</li>
+</ul>
+ </div>
+
+  <div class="column" style="background-color:#bbb;">SECONDARY SCHOOL
+<ul>
+  <li> In 2013, i started my secondary school at SMK TUNKU ABDUL RAHMAN or as known as SMK STAR.</li>
+  <li> Back then, i had a very bad anxiety which is hard for me in making friends.But, as time passes, i slowly befriend with my classmates and other seniors also.</li>
+  <li> After i passed my PT3, i went to science side class which called Al-Khawarizmi. I was afraid at first since only me and one of my guy friend that got into the class but, i was relieved that they are so welcoming and we are still till now. </li>
+  <li> So thankful that i successfully finished my high school with great people and teachers!!</li> 
+</ul>
+</div>
+
+  <div class="column" style="background-color:#ccc;">UNIVERSITY
+<ul>
+  <li> In 2018, i pursue my studies in course Diploma in Accountancy at University Teknologi MARA(UiTM)Kampus Sarawak. </li>
+  <li> At first i thought it is surely hard to get into university life which i never ever exprience before until i found my roommates, and new friends. 
+  <li> Although, i didnt finish on time, i am so thankful and proud of myself that i survived. Diploma life was fun!</li>
+  <li> In 2021, i decided to pursue degree because at that time i have nothing to do at home. </li>
+  <li> Thus, here i am, pursuing my Bachelor of Business Administration (Hons.) Finance at UiTM Samarahan too.</li>
+  <li> I hope the best for me and goodluck dearself!</li>
+</ul>
+
+</div>
+</div>
+
+<div class="footer">
+  <p></p>
+</div>
+
+</body>
+</html>
